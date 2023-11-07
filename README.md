@@ -6,6 +6,8 @@ Check script:
 <a href="https://inalsur.github.io/slideshow/">link</a>
 
 <h2>Instructions</h2>
-1. Wait 10 seconds for the slide to change to the next one.
-2. Click on the trigger of the inactive slide and watch the slide change to the slide you selected. You can wait 10 seconds after this and you will see how the slide changes to the next one.
-3. Mobile version: Use your finger to scroll to the left or right and see how the slide changes to the previous or next slide. You can wait 10 seconds after this and you will see how the slide changes to the next one. The trigger also works on the mobile version.
+<ol>
+  <li>Wait 10 seconds for the slide to change to the next one.</li>
+  <li>Click on the trigger of the inactive slide and watch the slide change to the slide you selected. You can wait 10 seconds after this and you will see how the slide changes to the next one.</li>
+  <li>Mobile version: Use your finger to scroll to the left or right and see how the slide changes to the previous or next slide. You can wait 10 seconds after this and you will see how the slide changes to the next one. The trigger also works on the mobile version.</li>
+</ol>
