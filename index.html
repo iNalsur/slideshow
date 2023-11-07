@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Script | Slideshow</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div id="section">
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <div class="container">
+                    <div class="left-content">
+                        <h2>Title 1</h2>
+                        <p>Description text 1</p>
+                    </div>            
+                    <div class="right-content">
+                        <div id="img1"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide fade">
+                <div class="container">
+                    <div class="left-content">
+                        <h2>Title 2</h2>
+                        <p>Description text 2</p>
+                    </div>            
+                    <div class="right-content">
+                        <div id="img2"></div>                           
+                    </div>
+                </div>
+            </div>
+            <div class="slide fade">
+                <div class="container">
+                    <div class="left-content">
+                        <h2>Title 3</h2>
+                        <p>Description text 3</p>  
+                    </div>            
+                    <div class="right-content">
+                        <div id="img3"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide fade">
+                <div class="container">
+                    <div class="left-content">
+                        <h2>Title 4</h2>
+                        <p>Description text 4</p>
+                    </div>            
+                    <div class="right-content">
+                        <div id="img4"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="left-content cancel"></div>
+                <div class="slider-dots">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>
